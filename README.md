@@ -4,6 +4,8 @@ Preprint: [Sparse GEMINI for Joint Discriminative Clustering and Feature Selecti
 
 Welcome to the Sparse GEMINI repo. This repo contains the official implementation of the sparse gemini algorithm as well as all the commands to reproduce the experiments.
 
+If your use case for Sparse GEMINI is rather for small datasets, you may want to check the numpy implementation in [GemClus](https://gemini-clustering.github.io/api.html#sparse-models) that provides a ready-to-use API.
+
 ## Model definition
 
 If you are only interested in using the sparse gemini model, you can simply download the `*.py` files in the `sparse_gemini` folder.
