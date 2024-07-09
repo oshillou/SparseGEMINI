@@ -1,0 +1,19 @@
+# Data related arguments
+data_name: openml/us_congress_static
+data_source: None
+data_path: datasets
+data_vars: "--name vote --export_targets"
+data_script: "fetch_openml.py"
+# Distance related arguments
+distance_path: distances
+distance_vars: "--variables cat"
+# GLasso algorithm
+dynamic: False
+gemini:
+  - "mmd"
+  - "wasserstein"
+mode:
+  - "ovo"
+  - "ova"
+lasso_vars: "--use_cuda --dims 10 --feature_threshold 2  --dropout 0.0 --epochs 200 --batch_size 145 -K 2 --lambda_start 1 --lambda_multiplier 1.1"
+num_runs: 20

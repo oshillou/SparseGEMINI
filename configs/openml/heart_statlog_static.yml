@@ -1,0 +1,19 @@
+# Data related arguments
+data_name: openml/heart_statlog_static
+data_source: None
+data_path: datasets
+data_vars: "--name dataset_53_heart-statlog --export_targets"
+data_script: "fetch_openml.py"
+# Distance related arguments
+distance_path: distances
+distance_vars: "--variables cont"
+# GLasso algorithm
+dynamic: False
+gemini:
+  - "mmd"
+  - "wasserstein"
+mode:
+  - "ovo"
+  - "ova"
+lasso_vars: "--use_cuda --dims 20 --feature_threshold 2  --dropout 0.0 --epochs 200 --batch_size 90 -K 2 --lambda_start 1 --lambda_multiplier 1.1"
+num_runs: 20
