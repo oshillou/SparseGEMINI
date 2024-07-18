@@ -1,6 +1,6 @@
 # Sparse GEMINI
 
-Preprint: [Sparse GEMINI for Joint Discriminative Clustering and Feature Selection](https://arxiv.org/abs/2302.03391)
+Article: [Sparse and geometry-aware generalisation of the mutual information for joint discriminative clustering and feature selection](https://link.springer.com/article/10.1007/s11222-024-10467-9)
 
 Welcome to the Sparse GEMINI repo. This repo contains the official implementation of the sparse gemini algorithm as well as all the commands to reproduce the experiments.
 
